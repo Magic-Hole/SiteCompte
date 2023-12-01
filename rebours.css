@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(255, 195, 55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  height: 100vh;
+}
+
+input[type="date"] {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+a {
+  color: #eb4034;
+  text-decoration: none;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  border-bottom: 2px solid #eb4034;
+  padding-bottom: 3px;
+  transition: color 0.2s, border-color 0.2s;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: #000;
+  border-color: #000;
+  opacity: 1;
+}
+
+a:active {
+  color: #555;
+}
